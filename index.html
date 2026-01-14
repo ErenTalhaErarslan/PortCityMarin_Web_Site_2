@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>PortCity Marina</title>
+    <a href="style.css"></a>
+    <style>
+        body { margin:0; font-family: 'Segoe UI', sans-serif; background:#f2f6f7; color:#333; }
+        header { background:#0b5563; padding:25px; text-align:center; }
+        header h1 { margin:0; color:white; letter-spacing:2px; }
+
+        nav { background:#083f4a; text-align:center; padding:12px; }
+        nav a { color:white; margin:18px; text-decoration:none; font-size:17px; }
+        nav a:hover { color:#a8f1ff; }
+
+        .marin { padding:40px; text-align:center; }
+        .marin img { border-radius:12px; }
+
+        .boxes { display:flex; justify-content:center; gap:25px; margin-top:20px; }
+        .box {
+            width:260px;
+            background:white;
+            padding:20px;
+            border-radius:12px;
+            box-shadow:0 2px 12px rgba(0,0,0,0.15);
+        }
+
+        footer { background:#0b5563; color:white; padding:20px; text-align:center; margin-top:40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PortCity Marina</h1>
+</header>
+
+
+    <nav>
+    <a href="index.html" class="menu-link">Ana Sayfa</a>
+    <a href="about.html" class="menu-link">Hakkında</a>
+    <a href="services.html" class="menu-link">Hizmetler</a>
+    <a href="contact.html" class="menu-link">İletişim</a>
+</nav>
+
+</nav>
+
+<div class="marin">
+    <h2 style="color:#0b5563;">Denizin Yeni Merkezi</h2>
+    <p><b>PortCity Marina</b>, modern sahil yaşam alanı ile <i>eşsiz bir deneyim</i> <u>sunuyor.</u></p>
+    <img src="https://plus.unsplash.com/premium_photo-1661963566623-e55aa59ea60e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600">
+</div>
+
+<h2 style="text-align:center; color:#083f4a;">Sunduğumuz Alanlar</h2>
+
+<div class="boxes">
+    <div class="box">
+        <h3>Modern Marina</h3>
+        <p>Geniş kapasite ve güvenli teknelik alanları.</p>
+    </div>
+
+    <div class="box">
+        <h3>Restoran & Kafeler</h3>
+        <p>Sahil kenarında kaliteli yeme içme alternatifleri.</p>
+    </div>
+
+    <div class="box">
+        <h3>Yürüyüş Yolları</h3>
+        <p>Deniz kokusu eşliğinde uzun yürüyüş rotaları.</p>
+    </div>
+</div>
+
+<button id="begeniButonu">👍 Beğen</button>
+<span id="begeniSayisi">0</span>
+
+
+<footer>© 2025 PortCity Marina – Tüm Hakları Saklıdır</footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

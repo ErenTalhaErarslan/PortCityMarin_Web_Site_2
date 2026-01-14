@@ -1,0 +1,19 @@
+
+.koyu-tema {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.koyu-tema nav {
+  background-color: #222 !important;
+}
+
+.koyu-tema nav a {
+  color: #ffffff !important;
+}
+
+.koyu-tema header,
+.koyu-tema footer {
+  background-color: #111 !important;
+}
+

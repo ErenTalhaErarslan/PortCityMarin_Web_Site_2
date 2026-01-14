@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>PortCity İletişim</title>
+    <a href="style.css"></a>
+    <style>
+        body { margin:0; font-family:'Segoe UI'; background:#eef4f5; }
+        nav { background:#083f4a; padding:15px; text-align:center; }
+        nav a { color:white; margin:20px; text-decoration:none; }
+        nav a:hover { color:#a8f1ff; }
+
+        .content { padding:35px; max-width:900px; margin:auto; }
+        iframe { border:0; border-radius:12px; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="menu-link">Ana Sayfa</a>
+    <a href="about.html" class="menu-link">Hakkında</a>
+    <a href="services.html" class="menu-link">Hizmetler</a>
+    <a href="contact.html" class="menu-link">İletişim</a>
+</nav>
+
+
+<div class="content">
+
+    <h1 style="color:#0b5563;">İletişim Bilgileri</h1>
+
+    <p><b>Adres:</b> PortCity Marina</p>
+    <p><b>Telefon:</b> 0 (212) 000 00 00</p>
+    <p><b>E-posta:</b> info@portcity.com</p>
+
+    <h2>Konum Haritası</h2>
+
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.856437449!2d28.97835811541427!3d41.008237379300106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa3eae03b0ed1%3A0x4b4548932e8e5a0d!2sIstanbul!5e0!3m2!1str!2str!4v1700049662022" 
+        width="600" 
+        height="300">
+    </iframe>
+
+    <form id="iletisimFormu">
+    <input type="text" id="ad" placeholder="Ad">
+    <input type="email" id="eposta" placeholder="E-posta">
+    <textarea id="mesaj" placeholder="Mesaj"></textarea>
+    <button type="submit">Gönder</button>
+</form>
+
+
+</div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
